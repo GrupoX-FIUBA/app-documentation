@@ -1,0 +1,46 @@
+.header__container {
+    width: 100vw;
+    min-width: 400px;
+    height: 64px;
+    max-height: 64px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 20px;
+    position: sticky;
+    background-color: $black;
+    color: white;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__pic {
+    max-height: 2.5em;
+}
+
+.header__tab {
+    padding: 20px 30px;
+    background-color: $black;
+    transition: all 0.1s ease-in;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.header__tab:hover {
+    background-color: $darkGrey;
+}
+
+.header__clicked {
+    background-color: $lightBlue;
+}
+.header__clicked:hover {
+    background-color: $lightBlue;
+}
+
