@@ -1,34 +1,53 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Slider from 'react-slick'
+import { wireframes } from '../constants/wireframes'
 
 export const WireframesScreen = () => {
+
+	const horizontalSlider = useRef();
+
     return <>
-			<Slider dots={true}
-				infinite={true}
-				speed={500}
-				slidesToShow={1}
-				slidesToScroll={1}>
-			<div>
-				<h3>1</h3>
-			</div>
-			<div>
-				<h3>2</h3>
-			</div>
-			<div>
-				<h3>3</h3>
-			</div>
-			<div>
-				<h3>4</h3>
-			</div>
-			<div>
-				<h3>5</h3>
-			</div>
-			<div>
-				<h3>6</h3>
-			</div>
+		<div className='gallery__container animate__animated animate__fadeIn'>
+			<div className='gallery__vertical-slider'>
+				<Slider dots={true}
+					infinite={false}
+					speed={500}
+					slidesToShow={3}
+					slidesToScroll={3}
+					vertical={true}
+					arrows={true}
+					>
+						{
+							wireframes.map((wf, i) => (
+								<div key={wf.name} className='gallery__vertical-element'>
+									<img src={wf.path} 
+										className='gallery__vertical-img'
+										onClick={() => horizontalSlider.current.slickGoTo(i)}></img>
+									<div className='gallery__epigraph'>{wf.name}</div>
+								</div>
+							))
+						}
 				</Slider>
-  
-  
-  
+			</div>
+
+			<div className='gallery__horizontal-slider'>
+				<Slider ref={slider => horizontalSlider.current = slider}
+					dots={true}
+					infinite={false}
+					speed={500}
+					slidesToShow={1}
+					slidesToScroll={1}
+					>
+						{
+							wireframes.map(wf => (
+								<div key={wf.name} className='gallery__horizontal-element'>
+									<img src={wf.path} className='gallery__horizontal-img'></img>
+									<div className='gallery__epigraph'>{wf.name}</div>
+								</div>
+							))
+						}
+				</Slider>
+			</div>
+		</div>
     </>
 }
