@@ -13,9 +13,9 @@ export const AppRouter = () => {
                 <Header />
                 <div className='background'>
                     <Routes>
-                        <Route path="app-documentation/manual" element={<UserManualScreen />}/>
-                        <Route path="app-documentation/wireframes" element={<WireframesScreen />}/>
-                        <Route path="app-documentation/navigation" element={<NavigationScreen />}/>
+                        <Route path="manual" element={<UserManualScreen />}/>
+                        <Route path="wireframes" element={<WireframesScreen />}/>
+                        <Route path="navigation" element={<NavigationScreen />}/>
                         <Route path="/*" element={<HomeScreen />}/>
                     </Routes>
                 </div>
