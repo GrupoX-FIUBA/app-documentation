@@ -23,7 +23,7 @@ Existen dos modalidades de uso en la aplicación: como oyente y como artista. Es
 ### **A su vez, sólo los artistas pueden…**
 
 - Subir nuevo contenido
-
+- Eliminar comentarios
 
 ## Primer paso: Registrarse
 
@@ -57,6 +57,36 @@ Para acceder a una conversación, sólo se debe presionar sobre el recuadro de l
 ### Notificaciones
 
 En esta pantalla aparecerán todas las notificaciones que el usuario reciba, apretando sobre las mismas se podrá acceder al contenido relacionado a la misma.
+
+### Lista de Usuarios 
+
+Se permite visualizar el resto de usuarios de la aplicación, pudiendo filtrar por nombre o email. Además se puede ingresar al perfil de los mismos.
+
+### Visualización del perfil de otro usuario
+
+- Observando el perfil de otro usuario se permite:
+  - Ver la foto de perfil. 
+  - Enviarle mensajes privados.
+  - Seguirlo.
+  - Observar sus seguidores.
+  - Observar a qué usuarios sigue.
+  - Donar dinero mediante ETH.
+
+### Billetera
+
+Se permite observar el balance actual de la misma, un historial de movimientos y extraer el dinero.
+
+### Agregar canción (Solo disponible para artistas)
+Se permite seleccionar una canción del storage local para subir a la plataforma y que la puedan escuchar otros usuarios. Se debe especificar que plan deben tener como mínimo los usuarios para escuchar dicha canción
+
+
+### Visualización de perfil propio
+
+- Observando el perfil propio se permite:
+  - Observar seguidores.
+  - Observar seguidos.
+  - Editar Nombre.
+  - Editar Foto de perfil.
 
 `
 

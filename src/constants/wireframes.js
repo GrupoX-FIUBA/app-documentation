@@ -53,7 +53,7 @@ export const wireframes = [
     },
     {
         name: 'Pantalla de edición de perfil',
-        path: '/assets/wireframes/Editar perfil.png'
+        path: '/assets/wireframes/Editar Perfil.png'
     },
     {
         name: 'Pantalla de configuración',
@@ -61,7 +61,7 @@ export const wireframes = [
     },
     {
         name: 'Lista de usuarios',
-        path: '/assets/wireframes/Lista de Usuarios.png'
+        path: '/assets/wireframes/Lista de usuarios.png'
     },
     {
         name: 'Perfil de otros usuarios',
@@ -84,7 +84,7 @@ export const wireframes = [
         path: '/assets/wireframes/Agregar Cancion.png'
     },{
         name: 'Creación de álbum',
-        path: '/assets/wireframes/Album.png'
+        path: '/assets/wireframes/Albumes.png'
     },
     {
         name: 'Pantalla de playlist',
