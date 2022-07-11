@@ -33,15 +33,15 @@ export const wireframes = [
     },
     {
         name: 'Pantalla de notificaciones',
-        path: '/app-documentation/assets/wireframes/Notificaciones.png'
+        path: '/assets/wireframes/Notificaciones.png'
     },
     {
         name: 'Pantalla de mensajes',
-        path: '/app-documentation/assets/wireframes/Mensajes.png'
+        path: '/assets/wireframes/Mensajes.png'
     },
     {
         name: 'Pantalla de chat',
-        path: '/app-documentation/assets/wireframes/Menu Mensajes.png'
+        path: '/assets/wireframes/Menu Mensajes.png'
     },
     {
         name: 'Drawer principal',
@@ -49,42 +49,42 @@ export const wireframes = [
     },
     {
         name: 'Perfil propio',
-        path: '/app-documentation/assets/wireframes/Perfil Propio.png'
+        path: '/assets/wireframes/Perfil Propio.png'
     },
     {
         name: 'Pantalla de edición de perfil',
-        path: '/app-documentation/assets/wireframes/Editar perfil.png'
+        path: '/assets/wireframes/Editar perfil.png'
     },
     {
         name: 'Pantalla de configuración',
-        path: '/app-documentation/assets/wireframes/Configuración.png'
+        path: '/assets/wireframes/Configuración.png'
     },
     {
         name: 'Lista de usuarios',
-        path: '/app-documentation/assets/wireframes/Lista de Usuarios.png'
+        path: '/assets/wireframes/Lista de Usuarios.png'
     },
     {
         name: 'Perfil de otros usuarios',
-        path: '/app-documentation/assets/wireframes/Perfil Usuario.png'
+        path: '/assets/wireframes/Perfil Usuario.png'
     },
     {
         name: 'Pantalla de seguidores',
-        path: '/app-documentation/assets/wireframes/Seguidores.png'
+        path: '/assets/wireframes/Seguidores.png'
     },
     {
         name: 'Pantalla de seguidos',
-        path: '/app-documentation/assets/wireframes/Seguidos.png'
+        path: '/assets/wireframes/Seguidos.png'
     },
     {
         name: 'Donación de dinero',
-        path: '/app-documentation/assets/wireframes/Donar.png'
+        path: '/assets/wireframes/Donar.png'
     },
     {
         name: 'Subida de canciones',
-        path: '/app-documentation/assets/wireframes/Agregar Cancion.png'
+        path: '/assets/wireframes/Agregar Cancion.png'
     },{
         name: 'Creación de álbum',
-        path: '/app-documentation/assets/wireframes/Album.png'
+        path: '/assets/wireframes/Album.png'
     },
     {
         name: 'Pantalla de playlist',
