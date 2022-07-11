@@ -1,7 +1,3 @@
-import React from 'react'
-import ReactMarkdown from 'react-markdown'
-
-const markdown = `
 # Manual de usuario
 
 Bienvenido a Spotifuiby, la aplicación para escuchar sus canciones favoritas y estar al tanto de los nuevos lanzamientos de sus artistas preferidos.
@@ -24,7 +20,6 @@ Existen dos modalidades de uso en la aplicación: como oyente y como artista. Es
 
 - Subir nuevo contenido
 
-
 ## Primer paso: Registrarse
 
 Para registrarse en Spotifiuby, debe completar correctamente con sus datos los campos que aparecen en la pantalla, seleccionar una foto de perfil (tomada con la cámara o de la galería) si lo desea y presionar el botón &quot;Registrarse&quot;. Una vez realizado esto, si el registro fue exitoso, ya tendrá una cuenta en la aplicación asociada a su dirección de correo.
@@ -39,6 +34,7 @@ El inicio de sesión es sencillo y puede realizarse por dos medios distintos:
 
 - Inicio de sesión tradicional, ingresando dirección de correo electrónico y contraseña.
 - Inicio de sesión con Google. Aquí, tras cliquear el respectivo botón se abrirá una ventana del navegador en la que el usuario podrá seleccionar la cuenta de Google con la que desee iniciar sesión y listo, ya podrá ingresar a Spotifiuby.
+
 
 ## Organización de la aplicacion
 
@@ -57,23 +53,3 @@ Para acceder a una conversación, sólo se debe presionar sobre el recuadro de l
 ### Notificaciones
 
 En esta pantalla aparecerán todas las notificaciones que el usuario reciba, apretando sobre las mismas se podrá acceder al contenido relacionado a la misma.
-
-`
-
-
-export const UserManualScreen = () => {
-
-  return (
-    <div style={{
-        display:"flex",
-        justifyContent:"center",
-        alignItems:"center",
-      }}>
-        <div style={{ color:"white", width:"50%", marginTop:25 }}>
-          <ReactMarkdown children = {markdown} style/>
-      </div>
-
-    </div>    
-
-  )
-}

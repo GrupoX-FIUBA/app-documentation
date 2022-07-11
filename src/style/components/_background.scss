@@ -2,4 +2,5 @@
     height: calc(100vh - 64px);
     width: 100%;
     background: linear-gradient($lightBlue, $black);
+    overflow-y: auto;
 }
