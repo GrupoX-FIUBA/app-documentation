@@ -22,7 +22,8 @@ export const WireframesScreen = () => {
 								<div key={wf.name} className='gallery__vertical-element'>
 									<img src={wf.path} 
 										className='gallery__vertical-img'
-										onClick={() => horizontalSlider.current.slickGoTo(i)}></img>
+										onClick={() => horizontalSlider.current.slickGoTo(i)}
+										alt='{wf.name}'></img>
 									<div className='gallery__epigraph'>{wf.name}</div>
 								</div>
 							))
@@ -41,7 +42,7 @@ export const WireframesScreen = () => {
 						{
 							wireframes.map(wf => (
 								<div key={wf.name} className='gallery__horizontal-element'>
-									<img src={wf.path} className='gallery__horizontal-img'></img>
+									<img src={wf.path} className='gallery__horizontal-img' alt='{wf.name}'></img>
 									<div className='gallery__epigraph'>{wf.name}</div>
 								</div>
 							))

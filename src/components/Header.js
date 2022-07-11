@@ -8,7 +8,7 @@ export const Header = () => {
 
     return <>
             <div className='header__container'>
-                <img src='/app-documentation/assets/logo.png' className='header__pic'></img>
+                <img src='/assets/logo.png' className='header__pic' alt='Spotifiuby logo'></img>
                 <div className='header__nav'>
                     <div className={`header__tab ${location==='/home'? 'header__clicked': ''}`}
                         onClick={() => navigate('home')}>
