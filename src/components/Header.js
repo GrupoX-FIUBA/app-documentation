@@ -22,10 +22,6 @@ export const Header = () => {
                         onClick={() => navigate('wireframes')}>
                         Wireframes
                     </div>
-                    <div className={`header__tab ${location==='/navigation'? 'header__clicked': ''}`}
-                        onClick={() => navigate('navigation')}>
-                        Navegación
-                    </div>
                 </div>
                 <div />
             </div>
