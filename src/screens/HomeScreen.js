@@ -7,6 +7,9 @@ export const HomeScreen = () => {
 				<h1 className='home__title'>
 					Spotifiuby. Tu app para escuchar música.
 				</h1>
+				<a href='https://expo.dev/artifacts/5b3ac610-2d95-4273-8299-e89e665f7513' target='_blank' rel='noreferrer' style={{marginTop: '2em'}}>
+				  <img src='/assets/download.png' alt='Download button' />
+				</a>
 			</div>
   	</>
 
